@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="PromptMap" load_steps=2 format=3 uid="uid://bqe1pcxfpjm6h"]
 
-[ext_resource type="Script" path="res://addons/button_prompts_for_godot/Scripts/prompt_map.gd" id="1_0cwlc"]
+[ext_resource type="Script" uid="uid://dq1wfylba404q" path="res://addons/button_prompts_for_godot/Scripts/prompt_map.gd" id="1_0cwlc"]
 
 [resource]
 script = ExtResource("1_0cwlc")

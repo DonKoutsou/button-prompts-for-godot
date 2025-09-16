@@ -24,7 +24,7 @@ ButtonPrompts/optional_supported_controllers/nintendo_switch=true
 config/name="Button Prompts for Godot"
 config/version="1.0"
 run/main_scene="res://addons/button_prompts_for_godot/Demo Scene/button_prompts_demo_scene.tscn"
-config/features=PackedStringArray("4.3", "GL Compatibility")
+config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]

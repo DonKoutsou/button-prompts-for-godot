@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://r1ina21dlnd1"]
 
-[ext_resource type="Script" path="res://addons/button_prompts_for_godot/Demo Scene/Player/Player.gd" id="1_gwidn"]
+[ext_resource type="Script" uid="uid://bcji2jyk3b6kl" path="res://addons/button_prompts_for_godot/Demo Scene/Player/Player.gd" id="1_gwidn"]
 [ext_resource type="Texture2D" uid="uid://cb6mxl4on6gtu" path="res://addons/button_prompts_for_godot/Demo Scene/Player/block.png" id="1_yj351"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_32x7m"]

@@ -1,17 +1,16 @@
 [gd_scene load_steps=8 format=3 uid="uid://bi0xbjfiw4r85"]
 
 [ext_resource type="Texture2D" uid="uid://dlsjm1yyq3uac" path="res://addons/button_prompts_for_godot/Demo Scene/ground.png" id="1_p4eo6"]
-[ext_resource type="Script" path="res://addons/button_prompts_for_godot/Scripts/ui_button_prompt.gd" id="1_w5gpe"]
-[ext_resource type="Script" path="res://addons/button_prompts_for_godot/Demo Scene/display_controller_name.gd" id="2_420as"]
+[ext_resource type="Script" uid="uid://c005168h7m23y" path="res://addons/button_prompts_for_godot/Scripts/ui_button_prompt.gd" id="1_w5gpe"]
+[ext_resource type="Script" uid="uid://802jrfmwtgdt" path="res://addons/button_prompts_for_godot/Demo Scene/display_controller_name.gd" id="2_420as"]
 [ext_resource type="PackedScene" uid="uid://r1ina21dlnd1" path="res://addons/button_prompts_for_godot/Demo Scene/Player/demo_player.tscn" id="2_e1vfc"]
 [ext_resource type="Texture2D" uid="uid://bbca1h0o1n8ir" path="res://addons/button_prompts_for_godot/Textures/key_blank.png" id="4_p1ghx"]
-[ext_resource type="Script" path="res://addons/button_prompts_for_godot/Scripts/sprite_button_prompt.gd" id="5_y54a4"]
+[ext_resource type="Script" uid="uid://presi14fa7k4" path="res://addons/button_prompts_for_godot/Scripts/sprite_button_prompt.gd" id="5_y54a4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iiyoc"]
 size = Vector2(578, 259)
 
 [node name="Button Prompts Demo Scene" type="Node2D"]
-position = Vector2(38, 38)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
@@ -29,8 +28,8 @@ anchor_top = 1.0
 anchor_bottom = 1.0
 offset_left = 15.0
 offset_top = -107.0
-offset_right = 724.0
-offset_bottom = -18.0
+offset_right = 597.0
+offset_bottom = -17.0
 grow_vertical = 0
 theme_override_font_sizes/normal_font_size = 30
 bbcode_enabled = true
