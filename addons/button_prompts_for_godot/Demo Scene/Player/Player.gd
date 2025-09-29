@@ -21,10 +21,10 @@ func _process(delta):
 	else:				
 		direction.y = 0;
 	
-	if Input.is_action_just_pressed("player1_jump") and grounded:
+	if Input.is_action_just_pressed("ui_up") and grounded:
 			direction.y = -JUMP_FORCE;
 	
-	if Input.is_action_just_pressed("player2_shoot"):
+	if Input.is_action_just_pressed("ui_accept"):
 		print("BANG!");
 	
 	velocity.x = direction.x * MOVE_SPEED;
