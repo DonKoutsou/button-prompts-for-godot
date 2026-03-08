@@ -7,7 +7,7 @@ class_name ButtonPromptSprite
 
 var manager: ButtonPromptsManager;
 
-@export var ACTION = "";
+@export var ACTION: String = ""; ## The name of the [b]input map action[/b] that you want to display prompts for.
 
 var using_keyboard: bool;
 var last_controller_event_device_id: int;

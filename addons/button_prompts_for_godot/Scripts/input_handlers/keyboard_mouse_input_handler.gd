@@ -25,6 +25,8 @@ func process_input(action: String) -> void:
 			
 			if "(physical)" in the_key_name:
 				the_key_name = the_key_name.replace(" (physical)", "");
+			if " - physical" in the_key_name:
+				the_key_name = the_key_name.replace(" - physical", "");
 			
 			key_name = the_key_name;
 		elif input is InputEventMouseButton:

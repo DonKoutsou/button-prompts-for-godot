@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://bi0xbjfiw4r85"]
+[gd_scene format=3 uid="uid://bi0xbjfiw4r85"]
 
 [ext_resource type="Texture2D" uid="uid://dlsjm1yyq3uac" path="res://addons/button_prompts_for_godot/Demo Scene/ground.png" id="1_p4eo6"]
 [ext_resource type="Script" uid="uid://c005168h7m23y" path="res://addons/button_prompts_for_godot/Scripts/ui_button_prompt.gd" id="1_w5gpe"]
@@ -10,11 +10,11 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iiyoc"]
 size = Vector2(578, 259)
 
-[node name="Button Prompts Demo Scene" type="Node2D"]
+[node name="Button Prompts Demo Scene" type="Node2D" unique_id=440053353]
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1715239940]
 
-[node name="Control" type="Control" parent="CanvasLayer"]
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1331676437]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -22,7 +22,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="ButtonPromptLabel" type="RichTextLabel" parent="CanvasLayer"]
+[node name="ButtonPromptLabel" type="RichTextLabel" parent="CanvasLayer" unique_id=1079767914]
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
@@ -39,7 +39,7 @@ scroll_active = false
 script = ExtResource("1_w5gpe")
 PROMPT_SCALE = 10.0
 
-[node name="Controller Name" type="RichTextLabel" parent="CanvasLayer"]
+[node name="Controller Name" type="RichTextLabel" parent="CanvasLayer" unique_id=2006365498]
 visible = false
 offset_left = 31.0
 offset_top = 42.0
@@ -48,20 +48,20 @@ offset_bottom = 635.0
 text = "sdfsdf"
 script = ExtResource("2_420as")
 
-[node name="Ground" type="StaticBody2D" parent="."]
+[node name="Ground" type="StaticBody2D" parent="." unique_id=2038543177]
 position = Vector2(14, 141)
 metadata/_edit_group_ = true
 
-[node name="Sprite2D" type="Sprite2D" parent="Ground"]
+[node name="Sprite2D" type="Sprite2D" parent="Ground" unique_id=438043110]
 scale = Vector2(4.51563, 4.04688)
 texture = ExtResource("1_p4eo6")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground" unique_id=1164271192]
 shape = SubResource("RectangleShape2D_iiyoc")
 
-[node name="Demo Player" parent="." instance=ExtResource("2_e1vfc")]
+[node name="Demo Player" parent="." unique_id=1694315753 instance=ExtResource("2_e1vfc")]
 
-[node name="ButtonPromptSprite" type="Sprite2D" parent="."]
+[node name="ButtonPromptSprite" type="Sprite2D" parent="." unique_id=1169447317]
 position = Vector2(47, -22)
 scale = Vector2(0.26, 0.26)
 texture = ExtResource("4_p1ghx")

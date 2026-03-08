@@ -3,12 +3,12 @@
 
 
 extends RichTextLabel
-## Displays button prompt icons in-between text. Use curly braces -- like this: {action_name} -- to insert a prompt.
+## Displays button prompt icons in-between text. Use curly braces to insert a prompt. (E.g. {action_name})
 class_name ButtonPromptLabel
 
 var manager: ButtonPromptsManager;
 
-@export_range(0, 100) var PROMPT_SCALE: float = 20; ## In percentage of the label's width.
+@export_range(0, 100) var PROMPT_SCALE: float = 20; ## In percentage.
 
 var using_keyboard: bool;
 var last_controller_event_device_id: int;

@@ -30,7 +30,7 @@ Button prompts are often an underlooked aspect when making a video game, but it 
 - PS3/Dualshock 3
 - Xbox 360
 
-<img src="/.github/steam_deck.gif" alt="button-prompt-showcase" width="600px" height="338px">
+<img src="/.github/steam_deck.gif" alt="steam-deck-demonstration" width="600px" height="338px">
 
 *Works on my Steam Deck!*
 
@@ -45,7 +45,7 @@ And also thanks to [this video](https://youtu.be/d6GtGbI-now) for inspiring this
 1. Download the latest Github Release
 2. Extract the file, and inside `addons`; drag and drop `button_prompts_for_godot` to your project's own `addons` folder. If you don't have an `addons` folder yet, you may drag and drop the extracted `addons` folder, along with it's content, to your project.
 3. In Godot, on the menu bar at the top; go to *Project > Project Settings > Plugins* then enable: **Button Prompts For Godot**.
-4. Your all set!
+4. You're all set!
 
 
 # Getting Started
@@ -112,7 +112,9 @@ If you forced a specific controller using the last mentioned function, you can u
 You may want this in your settings where there are some arrows that call `cycle_prev_controller()` & `cycle_next_controller()` to change the controller icons. Like "choose your controller's icons" or something. 
 
 
-# Planned Features
+# Misc
+
+### Planned Features
 These are some ideas that I would like to implement in the future--if I have the time!
 1. Animated Prompts
 2. Customizable Icon Textures/Spritsheeet
@@ -120,6 +122,11 @@ These are some ideas that I would like to implement in the future--if I have the
 4. Multiple Binds. Flash between prompts when more than one bind is assigned to an action
 5. Higher-Res textures
 6. Steam Input Integration
+7. Physical keys support
+
+### Known Issues
+Issues that people have found and are yet to be fixed.
+1. Disrupts POT translations
 
 
 # License
