@@ -1,7 +1,7 @@
 ![Banner](.github/banner.png)
 A simple way to always display the right button prompts
 
-### ✅ Works with Godot 4.5!
+### ✅ Works with Godot 4.6!
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE.md)
 ![Supported Godot Version](https://img.shields.io/badge/Godot-4.x-blue)
@@ -112,7 +112,7 @@ If you forced a specific controller using the last mentioned function, you can u
 You may want this in your settings where there are some arrows that call `cycle_prev_controller()` & `cycle_next_controller()` to change the controller icons. Like "choose your controller's icons" or something. 
 
 
-# Misc
+# Miscellaneous
 
 ### Planned Features
 These are some ideas that I would like to implement in the future--if I have the time!
